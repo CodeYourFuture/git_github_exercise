@@ -28,3 +28,7 @@ footer {
 .mandatory {
   color: red;
 }
+
+.btn {
+  margin-bottom: 2em;
+}
