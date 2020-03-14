@@ -1,30 +1,32 @@
 body {
-  background-color: #f8f9fa;
+    background-color: #f8f9fa;
 }
 
 main {
-  background: #eee;
+    background: #eee;
+    padding: 1em;
 }
 
 nav,
 main,
 footer {
-  max-width: 1200px;
-  margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .form-container {
-  margin: 2em 1em;
+    margin: 2em 1em;
 }
 
 .date--input-container {
-  display: inline-block;
-  position: relative;
+    display: inline-block;
+    position: relative;
 }
 
 .where-am-i {
-  border: 1px solid red;
+    border: 1px solid red;
 }
+
 .mandatory {
-  color: red;
+    color: red;
 }
