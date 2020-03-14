@@ -15,6 +15,7 @@ footer {
 
 .form-container {
   margin: 2em 1em;
+  padding: 1em;
 }
 
 .date--input-container {
@@ -25,6 +26,6 @@ footer {
 .where-am-i {
   border: 1px solid red;
 }
-.mandatory {
+.lead {
   color: red;
 }
