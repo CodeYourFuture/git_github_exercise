@@ -11,11 +11,12 @@ nav,
 main,
 footer {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .form-container {
   margin: 2em 1em;
+  padding: 1em;
 }
 
 .date--input-container {
@@ -27,5 +28,9 @@ footer {
   border: 1px solid red;
 }
 .mandatory {
+  color: red;
+}
+
+.required {
   color: red;
 }

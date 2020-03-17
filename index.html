@@ -51,7 +51,7 @@
             >
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
+        <form class="form-inline my-2 my-lg-0 ">
           <input
             class="form-control mr-sm-2"
             type="search"
@@ -69,24 +69,30 @@
         <div class="form-row">
           <div class="col">
             <div class="form-group">
-              <label class="lead" for="formGroupExampleInput">First Name<span class="mandatory">*</span></label>
+
+
+              <label class="lead " for="formGroupExampleInput"
+                >First Name <span class="mandatory">*</span></label
+              >
               <input
                 type="text"
                 class="form-control"
                 id="formGroupExampleInput"
-                placeholder="First Name"
+
+                placeholder="Add your first name"
               />
             </div>
           </div>
           <div class="col">
             <div class="form-group">
-              <label class="lead" for="formGroupExampleInput1">Last Name<span class="mandatory">*</span></label>
+              <label class="lead" for="formGroupExampleInput1"
+                >Last Name <span class="mandatory">*</span></label
+              >
               <input
                 type="text"
                 class="form-control"
                 id="formGroupExampleInput1"
-                placeholder="Last Name"
-                required
+                placeholder="Add your last name"
               />
             </div>
           </div>
@@ -94,13 +100,16 @@
         <div class="form-row">
           <div class="col">
             <div class="form-group">
-              <label class="lead" for="exampleInputEmail1">Email address<span class="mandatory">*</span></label>
+              <label class="lead " for="exampleInputEmail1"
+                >Email address <span class="mandatory">*</span></label
+              >
               <input
                 type="email"
-                class="form-control"
+                class="form-control required"
                 id="exampleInputEmail1"
+                placeholder="add your email address"
                 aria-describedby="emailHelp"
-                placeholder="example@123" required
+                placeholder="Add your email"
               />
               <small id="emailHelp" class="form-text text-muted"
                 >We'll never share your email with anyone else.</small
@@ -109,7 +118,9 @@
           </div>
           <div class="col">
             <div class="form-group">
-              <label class="lead" for="exampleInputPassword1">Password<span class="mandatory">*</span></label>
+              <label class="lead" for="exampleInputPassword1"
+                >Password <span class="mandatory">*</span></label
+              >
               <input
                 type="password"
                 class="form-control"
@@ -120,7 +131,7 @@
           </div>
         </div>
         <div class="form-group application-form-section-one-items">
-          <label htmlor="gender" class="lead">Gender</label
+          <label htmlor="gender" class="lead">Gender *</label
           ><select class="form-control" name="gender" id="gender" required="">
             <option value="" disabled="" selected>Select here</option>
             <option value="Male">Male</option>
@@ -132,7 +143,7 @@
         <div
           class="form-group application-form-section-one-items date-of-birth-input"
         >
-          <label for="dateOfBirth" class="w-50 lead">Date of Birth</label>
+          <label for="dateOfBirth" class="w-50 lead">Date of Birth *</label>
           <div>
             <div class=" outline-container">
               <div id="day-container" class="date--input-container">
@@ -533,13 +544,15 @@
           </select>
         </div>
         <div class="form-group">
-          <label class="lead" for="formGroupExampleInput3">How did you hear about us?<span class="mandatory">*</span></span></label>
+          <label class="lead" for="formGroupExampleInput3"
+            >How did you hear about us?</label
+          >
           <input
             type="text"
             class="form-control"
             id="formGroupExampleInput3"
-            placeholder="Facebook, website.."
             required
+            placeholder="eg. Social media, Search Engine, Word of mouth, Other"
           />
         </div>
 
